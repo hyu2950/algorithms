@@ -91,9 +91,8 @@ public class MaxNumberUnderLimit {
         return rest;
     }
 
-    public static int tmp = 0;
-
     // brute force
+    public static int tmp = 0;
     public static int maxNumber1(int[] arr, int limit) {
         tmp = 0;
         Arrays.sort(arr);
@@ -139,7 +138,7 @@ public class MaxNumberUnderLimit {
         }
         return arr;
     }
-
+    // testing...
     public static void main(String[] args) {
         int max = 3000;
         int testTime = 100;
